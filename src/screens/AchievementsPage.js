@@ -22,7 +22,8 @@ function AchievementsPage()
 {
     const [chapter, setChapter] = React.useState('Year-0');
     const [location, setLocation] = React.useState('Greece')
-    const urls = {Greece:"https://images5.alphacoders.com/703/thumb-1920-703637.jpg", UK:'https://wallpaperaccess.com/full/470732.jpg'};
+    //'https://wallpaperaccess.com/full/470732.jpg'
+    const urls = {Greece:"https://images5.alphacoders.com/703/thumb-1920-703637.jpg", UK:"https://images5.alphacoders.com/703/thumb-1920-703637.jpg"};
     
     return (
         <div className="ach-page" style={{backgroundImage:"url(" + urls[location] +")"}}>
@@ -68,8 +69,8 @@ function AchievementsPage()
                         <TimelineConnector />
                         <TimelineDot color="primary" variant="outlined">
                         <div className='timeline-item'>
-                                <IconButton onClick={() => setChapter('On the Sen hills of Rain')}>
-                                    <CloudIcon style={{fill: "white"}}/>
+                                <IconButton>
+                                    <CloudIcon style={{fill: "gray"}}/>
                                 </IconButton>
                                 </div>
                         
