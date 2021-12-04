@@ -19,11 +19,6 @@ function ContactPage()
             <h1> Contact Information </h1>
             <div className="contact-line"/>
             <div className = "contact-row">
-            
-                <div className="contact-field">
-                    <PhoneIphoneIcon />
-                    <p className="contact-hyperlink">+44 7376 009811</p>
-               </div>
                
                <div className="contact-field">
                     <EmailIcon/> 
