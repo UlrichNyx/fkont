@@ -1,0 +1,49 @@
+.contact-page {
+  background-image: url("https://images5.alphacoders.com/703/thumb-1920-703637.jpg");
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-content-container {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin-left: 60vh;
+  margin-right: 60vh;
+  align-items: stretch;
+  border-radius: 10px;
+  border-color: gray;
+  background-color: #fdfefe;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+}
+
+.contact-hyperlink {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.contact-line {
+  width: 50vh;
+  border-bottom: 1px solid black;
+}

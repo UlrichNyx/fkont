@@ -1,0 +1,62 @@
+.ach-page {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.definition-box {
+  background-color: white;
+  color: black;
+  padding-top: 2vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-bottom: 2vh;
+  border-radius: 10px;
+  border-color: gray;
+}
+
+.flexbox-row {
+  display: flex;
+  direction: row;
+  align-items: center;
+  gap: 1vh;
+}
+.ach-timeline {
+  float: left;
+}
+
+.timeline-item {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: -9px;
+  top: -10px;
+  transform: scale(0.7);
+}
+.line {
+  width: 100vh;
+  border-bottom: 1px solid #4472c4;
+}
+.ach-middle-container {
+  margin-top: 15vh;
+  color: white;
+  margin-left: 25vh;
+  margin-right: 25vh;
+}
+.ach-text-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: stretch;
+  margin-left: 5vh;
+}
+
+.middle-text-container {
+  flex-direction: row;
+  display: flex;
+}

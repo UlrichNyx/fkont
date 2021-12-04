@@ -1,0 +1,41 @@
+.cv-page {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("https://images5.alphacoders.com/703/thumb-1920-703637.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexbox-row {
+  display: flex;
+  direction: row;
+  align-items: center;
+  gap: 1vh;
+}
+
+.line {
+  width: 100vh;
+  border-bottom: 1px solid #4472c4;
+}
+.cv-middle-container {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  align-items: stretch;
+  padding-left: 15vh;
+  border-radius: 10px;
+  border-color: gray;
+  background-color: white;
+}
+
+.middle-text-container {
+  flex-direction: row;
+  display: flex;
+}

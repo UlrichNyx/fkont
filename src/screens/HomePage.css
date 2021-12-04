@@ -1,0 +1,26 @@
+.home-page {
+  background-image: url("https://images5.alphacoders.com/703/thumb-1920-703637.jpg");
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.middle-text-container {
+  flex-direction: row;
+  display: flex;
+}
