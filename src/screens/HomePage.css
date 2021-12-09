@@ -1,26 +1,60 @@
 .home-page {
-  background-image: url("https://images5.alphacoders.com/703/thumb-1920-703637.jpg");
   min-height: 100%;
   min-width: 1024px;
   width: 100%;
   height: auto;
   position: fixed;
-  top: 0;
-  left: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.middle-container {
-  display: flex;
-  flex-direction: column;
-  padding-top: 15vh;
   justify-content: center;
   align-items: center;
-  color: white;
+  top: 0;
+  left: 0;
+  background-image: url("https://i.pinimg.com/originals/3a/0e/db/3a0edb3df68725860d10787e98940b90.jpg");
+}
+
+.hp-content-container {
+  margin-top: 1px;
+  margin-left: 20vh;
+  margin-right: 20vh;
+  padding-left: 1vh;
+  padding-bottom: 14vh;
+  padding-top: 2vh;
+  height: 75vh;
+  border-width: 10px;
+  border-radius: 10px;
   text-align: center;
 }
 
-.middle-text-container {
-  flex-direction: row;
-  display: flex;
+.hp-banner {
+  background-color: rgb(35, 39, 42);
+  margin-left: 10vh;
+  margin-right: 10vh;
+  padding-top: 2vh;
+  padding-bottom: 8vh;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.hp-carousel-container {
+  background-color: rgb(44, 47, 51);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.text-wrapper {
+  color: white;
+}
+
+.middle-container {
+  width: 40vh;
+  height: 10vh;
+  margin-left: 50vh;
+  margin-top: 1vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: solid;
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: rgb(35, 39, 42);
 }

@@ -1,15 +1,12 @@
 import * as React from 'react';
 import Navbar from '../components/Navbar';
 import './ContactPage.css';
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import IconButton from '@mui/material/IconButton';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Divider from '@mui/material/Divider';
-import {Link, Route} from 'react-router-dom';
 function ContactPage()
 {
     return(

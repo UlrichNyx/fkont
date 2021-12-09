@@ -10,11 +10,28 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.text-bold {
+  font-weight: normal;
+  inline-size: 85%;
+}
+
+.text-bold i {
+  font-weight: bold;
+}
+
 .flexbox-row {
   display: flex;
   direction: row;
   align-items: center;
   gap: 1vh;
+  text-align: center;
+}
+.text-flexbox-row {
+  display: flex;
+  direction: row;
+  align-items: center;
+  gap: 1vh;
+  text-align: end;
 }
 
 .line {
@@ -22,12 +39,15 @@
   border-bottom: 1px solid #4472c4;
 }
 .cv-middle-container {
-  margin-top: 15vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin-top: 5vh;
   display: flex;
   flex-direction: column;
   color: black;
   margin-left: 25vh;
   margin-right: 25vh;
+  height: 80vh;
   align-items: stretch;
   padding-left: 15vh;
   border-radius: 10px;
@@ -35,7 +55,6 @@
   background-color: white;
 }
 
-.middle-text-container {
-  flex-direction: row;
-  display: flex;
+.cv-margins {
+  margin-top: 5vh;
 }

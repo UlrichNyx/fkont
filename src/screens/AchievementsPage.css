@@ -10,14 +10,13 @@
 }
 
 .definition-box {
-  background-color: white;
+  background-color: rgb(44, 47, 51);
   color: black;
   padding-top: 2vh;
   padding-left: 5vh;
   padding-right: 5vh;
   padding-bottom: 2vh;
   border-radius: 10px;
-  border-color: gray;
 }
 
 .flexbox-row {

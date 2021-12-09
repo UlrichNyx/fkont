@@ -14,21 +14,23 @@ function Navbar({highlightColor, textColor, defaultValue})
         history.push(newValue);
       };
     return (
-            <Box sx={{ width: '100%' }}>
-            <Tabs
-                value={value}
-                onChange={handleChange}
-                textColor={highlightColor}
-                indicatorColor={highlightColor}
-                aria-label="secondary tabs example"
-            >
-                <Tab sx={{color:textColor, width:'20%'}} value="/" label="Home"/>
-                <Tab value="/cv" sx={{color:textColor, width:'20%'}} label="CV" />
-                <Tab value="/achievements" sx={{color:textColor, width:'20%'}} label="Achievements" />
-                <Tab value="/journal" sx={{color:textColor, width:'20%'}} label="Journal" />
-                <Tab value="/contact" sx={{color:textColor, width:'20%'}} label="Contact" />
-            </Tabs>
-            </Box>
+            <div className='box-wrapper'>
+                <Box sx={{ width: '100%' }}>
+                <Tabs
+                    value={value}
+                    onChange={handleChange}
+                    textColor={highlightColor}
+                    indicatorColor={highlightColor}
+                    aria-label="secondary tabs example"
+                >
+                    <Tab sx={{color:textColor, width:'20%'}} value="/" label="Home"/>
+                    <Tab value="/cv" sx={{color:textColor, width:'20%'}} label="CV" />
+                    <Tab value="/achievements" sx={{color:textColor, width:'20%'}} label="Achievements" />
+                    <Tab value="/journal" sx={{color:textColor, width:'20%'}} label="Journal" />
+                    <Tab value="/contact" sx={{color:textColor, width:'20%'}} label="Contact" />
+                </Tabs>
+                </Box>
+            </div>
       );
 }
 
