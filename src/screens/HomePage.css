@@ -12,11 +12,10 @@
 }
 
 .hp-content-container {
-  margin-top: 1px;
   margin-left: 20vh;
   margin-right: 20vh;
   padding-left: 1vh;
-  padding-top: 2vh;
+  padding-top: 5px;
   height: 75vh;
   border-width: 10px;
   border-radius: 10px;
@@ -27,7 +26,7 @@
   background-color: rgb(35, 39, 42);
   margin-left: 10vh;
   margin-right: 10vh;
-  padding-top: 2vh;
+  padding-top: 1px;
   padding-bottom: 8vh;
   border-radius: 0px 0px 10px 10px;
 }
@@ -42,10 +41,10 @@
 }
 
 .middle-container {
-  width: 40vh;
-  height: 10vh;
-  margin-left: 27vw;
-  margin-top: 1vh;
+  width: 20vw;
+  height: 8vh;
+  margin-left: 29vw;
+  margin-top: 5px;
   justify-content: center;
   align-items: center;
   text-align: center;
